@@ -1,17 +1,30 @@
 import React from 'react';
-// import { ReactDOM } from 'react-dom';
-import ReactDOM from 'react-dom';
 
-class FoodItem extends React.Component {
 
-    state = {
-        foodItem : <h1>Item</h1>
-    }
-    
-    // ReactDOM.render()
 
-    ReactDOM.render();
-    
+const FoodItem = () => {
+
+    let thishello = <h1>wfvefe</h1>;
+    return thishello;
 }
+
+
+
+// class FoodItem extends React.Component {
+
+//     constructor() {
+//         this.hello = '';
+//     }
+
+
+//     state = {
+//         foodItem : <h1>Item</h1>
+//     }
+
+//     render() {
+//         return thishello;
+//     }
+
+// }
 
 export default FoodItem;
